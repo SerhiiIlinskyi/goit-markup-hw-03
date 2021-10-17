@@ -8,7 +8,9 @@
 }
 /**изменения цвета кнопки**/
 .header .color-block:hover,
-.header .color-block:focus {
+.header .color-block:focus,
+.header .color-block-a:hover,
+.header .color-block-a:focus {
   background-color: var(--brand-color-name);
   color: var(--brand-color-basic);
 }
