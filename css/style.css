@@ -55,7 +55,7 @@ body {
 }
 
 .color-block {
-  color: var(--brand-color-title);
+  color: var(--brand-color-text);
 }
 .drei-button {
   display: flex;
