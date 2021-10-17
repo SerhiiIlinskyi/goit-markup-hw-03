@@ -1,0 +1,232 @@
+/**основные цвета**/
+:root {
+  --brand-color-title: #212121;
+  --brand-color-text: #757575;
+  --brand-color-substrate: #2f303a;
+  --brand-color-basic: #2196f3;
+  --brand-color-name: #ffffff;
+}
+/**изменения цвета кнопки**/
+.header .color-block:hover,
+.header .color-block:focus {
+  background-color: var(--brand-color-name);
+  color: var(--brand-color-basic);
+}
+
+.button .button-alle:hover,
+.button .button-alle:focus {
+  background-color: var(--brand-color-basic);
+  color: var(--brand-color-name);
+}
+
+.adress .footer-a:hover,
+.adress .footer-a:focus {
+  color: var(--brand-color-name);
+}
+body {
+  font-family: Roboto;
+  color: var(--brand-color-title);
+  font-size: 14px;
+  line-height: 1.72;
+  background-color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+/**верхняя линия**/
+.header {
+}
+.web-studio {
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--brand-color-basic);
+  font-weight: 700;
+  text-decoration: none;
+}
+.heder-web {
+  color: var(--brand-color-title);
+}
+.footer-studio {
+  color: var(--brand-color-name);
+}
+
+.color-block {
+  color: var(--brand-color-title);
+}
+
+.studio {
+  font-weight: 500;
+  line-height: 1.17;
+  /**color: var(--brand-color-basic);**/
+}
+.portfolio {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+}
+.contacts {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+}
+.zwei-knopka {
+  color: var(--brand-color-title);
+}
+.header-https {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+}
+.header-tel {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+}
+
+/**index**/
+/**шапка**/
+.cap {
+  background-color: var(--brand-color-substrate);
+}
+.effective {
+  font-size: 44px;
+  line-height: 1.36;
+  color: var(--brand-color-name);
+  font-weight: 900;
+}
+.to-order {
+  background-color: var(--brand-color-basic);
+  font-size: 16px;
+  line-height: 1.82;
+  color: var(--brand-color-name);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/**особенности**/
+
+.block-name {
+  font-weight: 700;
+}
+.block-text {
+  font-weight: 400;
+  color: var(--brand-color-text);
+}
+
+/**Чем мы занимаемся**/
+
+.how-a {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+}
+
+.our {
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--brand-color-title);
+  font-weight: 700;
+}
+
+.name-img {
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--brand-color-title);
+  font-weight: 500;
+}
+.name-specialitat {
+  font-size: 16px;
+  color: var(--brand-color-text);
+  font-weight: 400;
+}
+
+/**portfolio**/
+/**button**/
+.button {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--brand-color-title);
+  font-weight: 500;
+}
+
+.button-a {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 73px;
+}
+
+.button-b {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 128px;
+}
+.button-c {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 145px;
+}
+.button-d {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 103px;
+}
+.button-e {
+  border: none;
+  cursor: pointer;
+  height: 38px;
+  width: 130px;
+}
+.poster {
+}
+.poster-foto {
+  text-decoration: none;
+}
+.poster-name {
+  font-size: 18px;
+  line-height: 2;
+  color: var(--brand-color-title);
+  font-weight: 700;
+  cursor: pointer;
+}
+.poster-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--brand-color-text);
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/**подвал**/
+.footer {
+  background-color: var(--brand-color-substrate);
+  font-weight: 400;
+}
+.dress-adress {
+  color: var(--brand-color-name);
+}
+
+.adress {
+  color: var(--brand-color-name);
+}
+.footer-adress {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
+}
+.footer-httpsinfom {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
+}
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--brand-color-text);
+  text-decoration: none;
+}
