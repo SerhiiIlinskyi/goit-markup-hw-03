@@ -30,10 +30,14 @@ body {
   line-height: 1.72;
   background-color: #ffffff;
   letter-spacing: 0.03em;
-}
+  }
 
 /**верхняя линия**/
 .header {
+  border 1600px;
+  display: flex;
+  flex-direction: row;
+  
 }
 .web-studio {
   font-family: Raleway;
@@ -41,8 +45,8 @@ body {
   line-height: 1.17;
   color: var(--brand-color-basic);
   font-weight: 700;
-  text-decoration: none;
-}
+  text-decoration: none;  
+ }
 .heder-web {
   color: var(--brand-color-title);
 }
@@ -53,40 +57,47 @@ body {
 .color-block {
   color: var(--brand-color-title);
 }
-
+.drei-button {
+  display: flex;
+  flex-direction: row;
+}
 .studio {
   font-weight: 500;
   line-height: 1.17;
-  /**color: var(--brand-color-basic);**/
-}
+  color: var(--brand-color-title);
+  }
 .portfolio {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-}
+ }
 .contacts {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-}
-.zwei-knopka {
-  color: var(--brand-color-title);
-}
+  }
+
+.zwei-button {
+  display: flex;
+  flex-direction: row;}
+
 .header-https {
   font-weight: 500;
   line-height: 1.17;
-  color: var(--brand-color-title);
-}
+  color: var(--brand-color-text);
+  }
 .header-tel {
   font-weight: 500;
   line-height: 1.17;
-  color: var(--brand-color-title);
-}
+  color: var(--brand-color-text);
+  }
 
 /**index**/
 /**шапка**/
 .cap {
   background-color: var(--brand-color-substrate);
+  width: 1600px;
+  height: 600px;
 }
 .effective {
   font-size: 44px;
@@ -104,6 +115,14 @@ body {
 }
 
 /**особенности**/
+.peculiarities {
+  width: 1170px;
+  height: 101px;
+}
+
+.peculiaritiese {
+  display: flex;
+}
 
 .block-name {
   font-weight: 700;
@@ -114,13 +133,26 @@ body {
 }
 
 /**Чем мы занимаемся**/
-
+.how {
+  width: 1170px;
+  height: 386px;
+}
 .how-a {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
 }
+.imgbox{
+display: flex;
+}
 
+
+/**Наша команда**/
+.ourteam{
+  width: 1600px;
+  height: 648px; 
+
+}
 .our {
   font-size: 36px;
   line-height: 1.17;
@@ -128,6 +160,9 @@ body {
   font-weight: 700;
 }
 
+.fotogrupp {
+display: flex;
+}
 .name-img {
   font-size: 16px;
   line-height: 1.2;
@@ -142,13 +177,22 @@ body {
 
 /**portfolio**/
 /**button**/
+.button-poster {
+  width: 1170px;
+  height: 1360px;
+  }
 .button {
   font-size: 16px;
   line-height: 1.6;
   color: var(--brand-color-title);
   font-weight: 500;
+ 
 }
 
+.alle-portfolio {
+ display: flex;
+  flex-direction: row;
+}
 .button-a {
   border: none;
   cursor: pointer;
@@ -181,6 +225,8 @@ body {
   width: 130px;
 }
 .poster {
+  display: flex;
+  flex-wrap: wrap;
 }
 .poster-foto {
   text-decoration: none;
@@ -204,6 +250,8 @@ body {
 .footer {
   background-color: var(--brand-color-substrate);
   font-weight: 400;
+  width: 1600px;
+  height: 252px;
 }
 .dress-adress {
   color: var(--brand-color-name);
