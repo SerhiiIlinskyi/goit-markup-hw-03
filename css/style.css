@@ -53,7 +53,9 @@ body {
 .footer-studio {
   color: var(--brand-color-name);
 }
-
+.color-block-a {
+  color: var(--brand-color-title);
+}
 .color-block {
   color: var(--brand-color-text);
 }
