@@ -25,21 +25,43 @@
 .adress .footer-a:focus {
   color: var(--brand-color-name);
 }
+
+* {
+  box-sizing: border-box;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: Roboto;
   color: var(--brand-color-title);
   font-size: 14px;
   line-height: 1.72;
-  background-color: #ffffff;
+  background-color: var(--brand-color-name);
   letter-spacing: 0.03em;
-  }
+  /**width: 1600px;**/
+}
 
 /**верхняя линия**/
 .header {
-  border 1600px;
-  display: flex;
-  flex-direction: row;
-  
+  width: 1600px;
+  height: 80px;
 }
 .web-studio {
   font-family: Raleway;
@@ -47,8 +69,10 @@ body {
   line-height: 1.17;
   color: var(--brand-color-basic);
   font-weight: 700;
-  text-decoration: none;  
- }
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+}
 .heder-web {
   color: var(--brand-color-title);
 }
@@ -62,39 +86,46 @@ body {
   color: var(--brand-color-text);
 }
 .drei-button {
-  display: flex;
-  flex-direction: row;
 }
 .studio {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-  }
+  width: 49px;
+  height: 16px;
+}
 .portfolio {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
- }
+  width: 77px;
+  height: 16px;
+}
 .contacts {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-  }
+  width: 68px;
+  height: 16px;
+}
 
 .zwei-button {
-  display: flex;
-  flex-direction: row;}
+}
 
 .header-https {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-text);
-  }
+  width: 135px;
+  height: 16px;
+}
 .header-tel {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-text);
-  }
+  width: 122px;
+  height: 16px;
+}
 
 /**index**/
 /**шапка**/
@@ -108,14 +139,17 @@ body {
   line-height: 1.36;
   color: var(--brand-color-name);
   font-weight: 900;
+  width: 696px;
+  height: 120px;
 }
+
 .to-order {
   background-color: var(--brand-color-basic);
   font-size: 16px;
   line-height: 1.82;
   color: var(--brand-color-name);
   font-weight: 700;
-  cursor: pointer;
+  /**cursor: pointer;**/
 }
 
 /**особенности**/
@@ -146,16 +180,14 @@ body {
   line-height: 1.17;
   font-weight: 700;
 }
-.imgbox{
-display: flex;
+.imgbox {
+  display: flex;
 }
 
-
 /**Наша команда**/
-.ourteam{
+.ourteam {
   width: 1600px;
-  height: 648px; 
-
+  height: 648px;
 }
 .our {
   font-size: 36px;
@@ -165,7 +197,7 @@ display: flex;
 }
 
 .fotogrupp {
-display: flex;
+  display: flex;
 }
 .name-img {
   font-size: 16px;
@@ -184,18 +216,18 @@ display: flex;
 .button-poster {
   width: 1170px;
   height: 1360px;
-  }
+}
 .button {
   font-size: 16px;
   line-height: 1.6;
   color: var(--brand-color-title);
   font-weight: 500;
- 
 }
 
-.alle-portfolio {
- display: flex;
+.alle-button {
+  display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .button-a {
   border: none;
@@ -240,14 +272,14 @@ display: flex;
   line-height: 2;
   color: var(--brand-color-title);
   font-weight: 700;
-  cursor: pointer;
+  /**cursor: pointer;**/
 }
 .poster-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--brand-color-text);
   font-weight: 400;
-  cursor: pointer;
+  /**cursor: pointer;**/
 }
 
 /**подвал**/
