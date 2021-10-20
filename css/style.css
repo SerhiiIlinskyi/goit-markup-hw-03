@@ -55,7 +55,7 @@ body {
   line-height: 1.72;
   background-color: var(--brand-color-name);
   letter-spacing: 0.03em;
-  /**width: 1600px;**/
+  width: 1600px;
 }
 
 /**верхняя линия**/
@@ -63,6 +63,15 @@ body {
   width: 1600px;
   height: 80px;
 }
+.header-container {
+  width: 1200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
 .web-studio {
   font-family: Raleway;
   font-size: 26px;
@@ -70,8 +79,10 @@ body {
   color: var(--brand-color-basic);
   font-weight: 700;
   text-decoration: none;
-  width: 145px;
-  height: 31px;
+  /**width: 145px;
+  height: 31px;**/
+  margin-right: 93px;
+  /**display: flex;**/
 }
 .heder-web {
   color: var(--brand-color-title);
@@ -85,51 +96,74 @@ body {
 .color-block {
   color: var(--brand-color-text);
 }
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
 .drei-button {
+  display: flex;
+  /**align-items: center;**/
 }
 .studio {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-  width: 49px;
+  /**width: 49px;
   height: 16px;
+  top: 32px;
+  left: 453px;**/
+  margin-right: 50px;
 }
 .portfolio {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-  width: 77px;
+  /**width: 77px;
   height: 16px;
+  top: 32px;
+  left: 552px;**/
+  margin-right: 50px;
 }
 .contacts {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-title);
-  width: 68px;
-  height: 16px;
+  /**width: 68px;
+  height: 16px;**/
 }
 
 .zwei-button {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 
 .header-https {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-text);
-  width: 135px;
-  height: 16px;
+  /**width: 135px;
+  height: 16px;**/
 }
 .header-tel {
   font-weight: 500;
   line-height: 1.17;
   color: var(--brand-color-text);
-  width: 122px;
-  height: 16px;
+  /**width: 122px;
+  height: 16px;**/
+  margin-left: 50px;
 }
 
 /**index**/
 /**шапка**/
-.cap {
+.container {
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+.hero {
   background-color: var(--brand-color-substrate);
   width: 1600px;
   height: 600px;
@@ -156,10 +190,12 @@ body {
 .peculiarities {
   width: 1170px;
   height: 101px;
+  display: flex;
 }
 
 .peculiaritiese {
   display: flex;
+  align-items: stretch;
 }
 
 .block-name {
@@ -172,32 +208,36 @@ body {
 
 /**Чем мы занимаемся**/
 .how {
-  width: 1170px;
-  height: 386px;
+  /**width: 1170px;
+  height: 386px;**/
 }
 .how-a {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
+  padding-bottom: 15px;
 }
 .imgbox {
   display: flex;
+  justify-content: space-around;
 }
 
 /**Наша команда**/
 .ourteam {
-  width: 1600px;
-  height: 648px;
+  /** width: 1600px;
+  height: 648px;**/
 }
 .our {
   font-size: 36px;
   line-height: 1.17;
   color: var(--brand-color-title);
   font-weight: 700;
+  padding-bottom: 15px;
 }
 
 .fotogrupp {
   display: flex;
+  justify-content: space-around;
 }
 .name-img {
   font-size: 16px;
@@ -229,6 +269,7 @@ body {
   flex-direction: row;
   justify-content: center;
 }
+
 .button-a {
   border: none;
   cursor: pointer;
@@ -263,6 +304,7 @@ body {
 .poster {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .poster-foto {
   text-decoration: none;
@@ -286,15 +328,19 @@ body {
 .footer {
   background-color: var(--brand-color-substrate);
   font-weight: 400;
+  padding-left: 215px;
   width: 1600px;
   height: 252px;
 }
-.dress-adress {
+.adress-adress {
   color: var(--brand-color-name);
 }
 
 .adress {
   color: var(--brand-color-name);
+
+  display: flex;
+  flex-direction: column;
 }
 .footer-adress {
   font-style: normal;
