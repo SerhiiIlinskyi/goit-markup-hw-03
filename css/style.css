@@ -58,6 +58,17 @@ body {
   width: 1600px;
 }
 
+.section {
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
 /**верхняя линия**/
 .header {
   width: 1600px;
@@ -157,25 +168,21 @@ body {
 
 /**index**/
 /**шапка**/
-.container {
-  width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin: 0 auto;
-}
+
 .hero {
   background-color: var(--brand-color-substrate);
   width: 1600px;
   height: 600px;
   padding-top: 200px;
-  padding-left: 400px;
-  display: ;
+  padding-bottom: 200px;
 }
+
 .effective {
   font-size: 44px;
   line-height: 1.36;
   color: var(--brand-color-name);
   font-weight: 900;
+  /**padding-left: 400px;**/
   width: 696px;
   height: 120px;
 }
@@ -188,6 +195,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   padding: 15px;
+  /**margin-left: 700px;**/
 }
 
 /**особенности**/
@@ -220,7 +228,6 @@ body {
   line-height: 1.17;
   font-weight: 700;
   padding-bottom: 15px;
-  padding-left: 400px;
 }
 .imgbox {
   display: flex;
@@ -238,7 +245,6 @@ body {
   color: var(--brand-color-title);
   font-weight: 700;
   padding-bottom: 15px;
-  padding-left: 400px;
 }
 
 .fotogrupp {
