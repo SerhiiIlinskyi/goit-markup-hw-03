@@ -167,6 +167,9 @@ body {
   background-color: var(--brand-color-substrate);
   width: 1600px;
   height: 600px;
+  padding-top: 200px;
+  padding-left: 400px;
+  display: ;
 }
 .effective {
   font-size: 44px;
@@ -183,7 +186,8 @@ body {
   line-height: 1.82;
   color: var(--brand-color-name);
   font-weight: 700;
-  /**cursor: pointer;**/
+  cursor: pointer;
+  padding: 15px;
 }
 
 /**особенности**/
@@ -216,6 +220,7 @@ body {
   line-height: 1.17;
   font-weight: 700;
   padding-bottom: 15px;
+  padding-left: 400px;
 }
 .imgbox {
   display: flex;
@@ -233,6 +238,7 @@ body {
   color: var(--brand-color-title);
   font-weight: 700;
   padding-bottom: 15px;
+  padding-left: 400px;
 }
 
 .fotogrupp {
@@ -338,9 +344,9 @@ body {
 
 .adress {
   color: var(--brand-color-name);
-
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
 }
 .footer-adress {
   font-style: normal;
