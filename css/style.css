@@ -64,7 +64,6 @@ body {
   }
 .container {
   width: 1200px;
-  text-align: center;
   margin-left: 215px;
     
  /**padding-top: 94px;
@@ -207,7 +206,7 @@ body {
 }
 
 .peculiaritiese {
-  padding-left: 215px;
+  /**padding-left: 215px;**/
   display: flex;
   align-items: stretch;
 }
