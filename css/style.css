@@ -59,14 +59,16 @@ body {
 }
 
 .section {
-  width: 1200px;
   padding-top: 94px;
   padding-bottom: 94px;
-  margin: 0 auto;
-}
+  }
 .container {
-  display: flex;
-  justify-content: space-around;
+  width: 1200px;
+  text-align: center;
+  margin-left: 215px;
+    
+ /**padding-top: 94px;
+  padding-bottom: 94px;**/
 }
 
 /**верхняя линия**/
@@ -175,6 +177,7 @@ body {
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
 }
 
 .effective {
@@ -183,8 +186,6 @@ body {
   color: var(--brand-color-name);
   font-weight: 900;
   /**padding-left: 400px;**/
-  width: 696px;
-  height: 120px;
 }
 
 .to-order {
@@ -195,17 +196,18 @@ body {
   font-weight: 700;
   cursor: pointer;
   padding: 15px;
+  mb
   /**margin-left: 700px;**/
 }
 
 /**особенности**/
 .peculiarities {
   width: 1170px;
-  height: 101px;
-  display: flex;
+  height: 101px;  
 }
 
 .peculiaritiese {
+  padding-left: 215px;
   display: flex;
   align-items: stretch;
 }
@@ -220,6 +222,7 @@ body {
 
 /**Чем мы занимаемся**/
 .how {
+  /**padding-left: 215px;**/
   /**width: 1170px;
   height: 386px;**/
 }
@@ -228,10 +231,11 @@ body {
   line-height: 1.17;
   font-weight: 700;
   padding-bottom: 15px;
+  text-align: center;
 }
 .imgbox {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 /**Наша команда**/
@@ -243,32 +247,37 @@ body {
   font-size: 36px;
   line-height: 1.17;
   color: var(--brand-color-title);
+  text-align: center;
   font-weight: 700;
   padding-bottom: 15px;
 }
 
 .fotogrupp {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .name-img {
   font-size: 16px;
   line-height: 1.2;
   color: var(--brand-color-title);
   font-weight: 500;
+  text-align: center;
 }
 .name-specialitat {
   font-size: 16px;
   color: var(--brand-color-text);
   font-weight: 400;
+  text-align: center;
 }
 
 /**portfolio**/
 /**button**/
 .button-poster {
   width: 1170px;
-  height: 1360px;
+  height: 1360px;  
+  display: flex;
 }
+
 .button {
   font-size: 16px;
   line-height: 1.6;
@@ -276,12 +285,21 @@ body {
   font-weight: 500;
 }
 
+.button-all {
+  text-align: center;
+}
+
 .alle-button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 15px;
 }
-
+.poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .button-a {
   border: none;
   cursor: pointer;
@@ -313,14 +331,13 @@ body {
   height: 38px;
   width: 130px;
 }
-.poster {
+
+.poster-blank {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
 }
 .poster-foto {
   text-decoration: none;
-}
+  }
 .poster-name {
   font-size: 18px;
   line-height: 2;
@@ -340,9 +357,12 @@ body {
 .footer {
   background-color: var(--brand-color-substrate);
   font-weight: 400;
-  padding-left: 215px;
   width: 1600px;
-  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 90px;
+  display: flex;
+
 }
 .adress-adress {
   color: var(--brand-color-name);
