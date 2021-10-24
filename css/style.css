@@ -59,21 +59,25 @@ body {
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  }
+  /**padding-top: 94px;
+  padding-bottom: 94px;**/
+  padding: 94px;
+}
 .container {
   width: 1200px;
-  margin-left: 215px;
-    
- /**padding-top: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /**padding-top: 94px;
   padding-bottom: 94px;**/
 }
 
 /**верхняя линия**/
 .header {
-  width: 1600px;
-  height: 80px;
+  /**width: 1600px;
+  height: 80px;**/
 }
 .header-container {
   width: 1200px;
@@ -195,14 +199,14 @@ body {
   font-weight: 700;
   cursor: pointer;
   padding: 15px;
-  mb
+
   /**margin-left: 700px;**/
 }
 
 /**особенности**/
 .peculiarities {
   width: 1170px;
-  height: 101px;  
+  height: 101px;
 }
 
 .peculiaritiese {
@@ -212,9 +216,14 @@ body {
 }
 
 .block-name {
+  width: 270px;
+  height: 16px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
 .block-text {
+  width: 270px;
+  height: 75px;
   font-weight: 400;
   color: var(--brand-color-text);
 }
@@ -233,8 +242,9 @@ body {
   text-align: center;
 }
 .imgbox {
+  padding: 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 /**Наша команда**/
@@ -272,8 +282,8 @@ body {
 /**portfolio**/
 /**button**/
 .button-poster {
-  width: 1170px;
-  height: 1360px;  
+  /**width: 1170px;
+  height: 1360px;**/
   display: flex;
 }
 
@@ -293,6 +303,7 @@ body {
   flex-direction: row;
   justify-content: center;
   margin: 15px;
+  margin-bottom: 50px;
 }
 .poster {
   display: flex;
@@ -304,6 +315,7 @@ body {
   cursor: pointer;
   height: 38px;
   width: 73px;
+  margin-right: 8px;
 }
 
 .button-b {
@@ -311,18 +323,21 @@ body {
   cursor: pointer;
   height: 38px;
   width: 128px;
+  margin-right: 8px;
 }
 .button-c {
   border: none;
   cursor: pointer;
   height: 38px;
   width: 145px;
+  margin-right: 8px;
 }
 .button-d {
   border: none;
   cursor: pointer;
   height: 38px;
   width: 103px;
+  margin-right: 8px;
 }
 .button-e {
   border: none;
@@ -336,7 +351,7 @@ body {
 }
 .poster-foto {
   text-decoration: none;
-  }
+}
 .poster-name {
   font-size: 18px;
   line-height: 2;
@@ -351,6 +366,33 @@ body {
   font-weight: 400;
   /**cursor: pointer;**/
 }
+.technokryak {
+  margin-bottom: 30px;
+}
+.new-orleanvs {
+  margin-bottom: 30px;
+}
+.seafood {
+  margin-bottom: 30px;
+}
+.prime {
+  margin-bottom: 30px;
+}
+.boxes {
+  margin-bottom: 30px;
+}
+.borders {
+  margin-bottom: 30px;
+}
+/**.limited {
+}
+.lab {
+
+}
+.business{
+
+}
+**/
 
 /**подвал**/
 .footer {
@@ -361,7 +403,6 @@ body {
   padding-bottom: 60px;
   padding-left: 90px;
   display: flex;
-
 }
 .adress-adress {
   color: var(--brand-color-name);
