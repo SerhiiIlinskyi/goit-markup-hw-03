@@ -14,18 +14,15 @@
   background-color: var(--brand-color-name);
   color: var(--brand-color-basic);
 }
-
 .button .button-alle:hover,
 .button .button-alle:focus {
   background-color: var(--brand-color-basic);
   color: var(--brand-color-name);
 }
-
 .adress .footer-a:hover,
 .adress .footer-a:focus {
   color: var(--brand-color-name);
 }
-
 * {
   box-sizing: border-box;
 }
@@ -38,7 +35,6 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul {
   margin: 0;
   padding: 0;
@@ -47,7 +43,6 @@ ul {
 button {
   cursor: pointer;
 }
-
 body {
   font-family: Roboto;
   color: var(--brand-color-title);
@@ -57,7 +52,6 @@ body {
   letter-spacing: 0.03em;
   width: 1600px;
 }
-
 .section {
   /**padding-top: 94px;
   padding-bottom: 94px;**/
@@ -69,11 +63,9 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-
   /**padding-top: 94px;
   padding-bottom: 94px;**/
 }
-
 /**верхняя линия**/
 .header {
   /**width: 1600px;
@@ -87,7 +79,6 @@ body {
   display: flex;
   align-items: center;
 }
-
 .web-studio {
   font-family: Raleway;
   font-size: 26px;
@@ -148,13 +139,11 @@ body {
   /**width: 68px;
   height: 16px;**/
 }
-
 .zwei-button {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
-
 .header-https {
   font-weight: 500;
   line-height: 1.17;
@@ -170,27 +159,24 @@ body {
   height: 16px;**/
   margin-left: 50px;
 }
-
 /**index**/
 /**шапка**/
-
 .hero {
   background-color: var(--brand-color-substrate);
-  width: 1600px;
-  height: 600px;
+  /**width: 1600px;
+  height: 600px;**/
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
-
 .effective {
   font-size: 44px;
   line-height: 1.36;
   color: var(--brand-color-name);
   font-weight: 900;
+  margin-bottom: 30px;
   /**padding-left: 400px;**/
 }
-
 .to-order {
   background-color: var(--brand-color-basic);
   font-size: 16px;
@@ -199,22 +185,17 @@ body {
   font-weight: 700;
   cursor: pointer;
   padding: 15px;
-
-  /**margin-left: 700px;**/
 }
-
 /**особенности**/
 .peculiarities {
-  width: 1170px;
-  height: 101px;
+  /**width: 1170px;
+  height: 101px;**/
 }
-
 .peculiaritiese {
   /**padding-left: 215px;**/
   display: flex;
   align-items: stretch;
 }
-
 .block-name {
   width: 270px;
   height: 16px;
@@ -227,7 +208,6 @@ body {
   font-weight: 400;
   color: var(--brand-color-text);
 }
-
 /**Чем мы занимаемся**/
 .how {
   /**padding-left: 215px;**/
@@ -240,13 +220,13 @@ body {
   font-weight: 700;
   padding-bottom: 15px;
   text-align: center;
+  margin-bottom: 50px;
 }
 .imgbox {
   padding: 15px;
   display: flex;
   justify-content: space-around;
 }
-
 /**Наша команда**/
 .ourteam {
   /** width: 1600px;
@@ -259,8 +239,8 @@ body {
   text-align: center;
   font-weight: 700;
   padding-bottom: 15px;
+  margin-bottom: 50px;
 }
-
 .fotogrupp {
   display: flex;
   justify-content: space-evenly;
@@ -278,26 +258,22 @@ body {
   font-weight: 400;
   text-align: center;
 }
-
 /**portfolio**/
 /**button**/
 .button-poster {
   /**width: 1170px;
   height: 1360px;**/
-  display: flex;
+  display: block;
 }
-
 .button {
   font-size: 16px;
   line-height: 1.6;
   color: var(--brand-color-title);
   font-weight: 500;
 }
-
 .button-all {
   text-align: center;
 }
-
 .alle-button {
   display: flex;
   flex-direction: row;
@@ -317,7 +293,6 @@ body {
   width: 73px;
   margin-right: 8px;
 }
-
 .button-b {
   border: none;
   cursor: pointer;
@@ -345,7 +320,6 @@ body {
   height: 38px;
   width: 130px;
 }
-
 .poster-blank {
   display: flex;
 }
@@ -387,10 +361,8 @@ body {
 /**.limited {
 }
 .lab {
-
 }
 .business{
-
 }
 **/
 
@@ -407,7 +379,6 @@ body {
 .adress-adress {
   color: var(--brand-color-name);
 }
-
 .adress {
   color: var(--brand-color-name);
   display: flex;
