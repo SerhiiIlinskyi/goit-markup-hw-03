@@ -52,6 +52,7 @@ body {
   letter-spacing: 0.03em;
   width: 1600px;
 }
+
 .section {
   /**padding-top: 94px;
   padding-bottom: 94px;**/
@@ -169,6 +170,7 @@ body {
   padding-bottom: 200px;
   text-align: center;
 }
+
 .effective {
   font-size: 44px;
   line-height: 1.36;
