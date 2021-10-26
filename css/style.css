@@ -50,13 +50,13 @@ body {
   line-height: 1.72;
   background-color: var(--brand-color-name);
   letter-spacing: 0.03em;
-  width: 1600px;
+  /**width: 1600px;**/
+  /**border-bottom: 1600px;**/
 }
 
 .section {
-  /**padding-top: 94px;
-  padding-bottom: 94px;**/
-  padding: 94px;
+  padding-top: 94px;
+  /**padding-bottom: 94px;**/
 }
 .container {
   width: 1200px;
@@ -64,6 +64,7 @@ body {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
   /**padding-top: 94px;
   padding-bottom: 94px;**/
 }
@@ -71,6 +72,7 @@ body {
 .header {
   /**width: 1600px;
   height: 80px;**/
+  border-bottom: 1px solid gray;
 }
 .header-container {
   width: 1200px;
@@ -199,6 +201,7 @@ body {
   /**padding-left: 215px;**/
   display: flex;
   align-items: stretch;
+  padding-top: 0px;
 }
 .block-name {
   width: 270px;
@@ -222,7 +225,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   font-weight: 700;
-  padding-bottom: 15px;
+  /**padding-bottom: 15px;**/
   text-align: center;
   margin-bottom: 50px;
 }
@@ -233,9 +236,9 @@ body {
   padding-right: 30px;
 }
 .imgbox {
-  padding: 15px;
+  /**padding: 15px;**/
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 /**Наша команда**/
 .ourteam {
@@ -253,7 +256,8 @@ body {
 }
 .fotogrupp {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-bottom: 94px;
 }
 .name-img {
   font-size: 16px;
@@ -283,6 +287,7 @@ body {
   /**width: 1170px;
   height: 1360px;**/
   display: block;
+  padding-bottom: 94px;
 }
 .button {
   font-size: 16px;
@@ -292,6 +297,7 @@ body {
 }
 .button-all {
   text-align: center;
+  border-radius: 5px;
 }
 .alle-button {
   display: flex;
@@ -300,11 +306,7 @@ body {
   margin: 15px;
   margin-bottom: 50px;
 }
-.poster {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+
 .button-a {
   border: none;
   cursor: pointer;
@@ -339,6 +341,12 @@ body {
   height: 38px;
   width: 130px;
 }
+.poster {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  /**justify-content: space-around;**/
+}
 .poster-blank {
   display: flex;
 }
@@ -361,38 +369,42 @@ body {
 }
 .technokryak {
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .new-orleanvs {
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .seafood {
   margin-bottom: 30px;
 }
 .prime {
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .boxes {
   margin-bottom: 30px;
+  margin-right: 30px;
 }
 .borders {
   margin-bottom: 30px;
 }
-/**.limited {
+.limited {
+  margin-right: 30px;
 }
 .lab {
+  margin-right: 30px;
 }
-.business{
+.business {
 }
-**/
 
 /**подвал**/
 .footer {
   background-color: var(--brand-color-substrate);
   font-weight: 400;
-  width: 1600px;
+  /**width: 1600px;**/
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 90px;
   display: flex;
 }
 .adress-adress {
