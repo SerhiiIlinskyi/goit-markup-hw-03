@@ -5,6 +5,9 @@
   --brand-color-substrate: #2f303a;
   --brand-color-basic: #2196f3;
   --brand-color-name: #ffffff;
+  --brand-color-line: #ececec;
+  --brand-color-back: #f5f4fa;
+  --brand-color-nummer: rgba(245, 244, 250, 1);
 }
 /**изменения цвета кнопки**/
 .header .color-block:hover,
@@ -18,11 +21,23 @@
 .button .button-alle:focus {
   background-color: var(--brand-color-basic);
   color: var(--brand-color-name);
+  box-shadow: 0 2px 2px 0 var(--brand-color-text);
 }
 .adress .footer-a:hover,
 .adress .footer-a:focus {
   color: var(--brand-color-name);
 }
+.poster .poster-blank:hover,
+.poster .poster-blank:focus {
+  display: flex;
+  box-shadow: 0px 4px 4px 0px var(--brand-color-substrate);
+}
+/**.button .button-alle:hover,
+.button .button-alle:focus {
+  background-color: var(--brand-color-basic);
+  color: var(--brand-color-name);
+}**/
+
 * {
   box-sizing: border-box;
 }
@@ -56,8 +71,13 @@ body {
 
 .section {
   padding-top: 94px;
-  /**padding-bottom: 94px;**/
+  padding-bottom: 94px;
 }
+
+.section-help {
+  padding-bottom: 0px;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -72,7 +92,7 @@ body {
 .header {
   /**width: 1600px;
   height: 80px;**/
-  border-bottom: 1px solid gray;
+  border: 1px solid var(--brand-color-line);
 }
 .header-container {
   width: 1200px;
@@ -203,6 +223,9 @@ body {
   align-items: stretch;
   padding-top: 0px;
 }
+.block:not(:last-child) {
+  margin-right: 30px;
+}
 .block-name {
   width: 270px;
   height: 16px;
@@ -229,10 +252,7 @@ body {
   text-align: center;
   margin-bottom: 50px;
 }
-.imgbox-a {
-  padding-right: 30px;
-}
-.imgbox-b {
+.imgbox-a:not(:last-child) {
   padding-right: 30px;
 }
 .imgbox {
@@ -244,6 +264,7 @@ body {
 .ourteam {
   /** width: 1600px;
   height: 648px;**/
+  background: var(--brand-color-back);
 }
 .our {
   font-size: 36px;
@@ -258,34 +279,44 @@ body {
   display: flex;
   justify-content: space-between;
   padding-bottom: 94px;
+  width: calc(100% - 30px);
+}
+.foto-a {
+  width: 270px;
+  height: 368px;
+  padding-right: 30px;
+  box-shadow: 0 2px 1px 0 var(--brand-color-text);
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.foto-a:not(:last-child) {
+  padding-right: 30px;
 }
 .name-img {
   font-size: 16px;
   line-height: 1.2;
   color: var(--brand-color-title);
   font-weight: 500;
-  text-align: center;
+  /**text-align: center;**/
 }
 .name-specialitat {
   font-size: 16px;
   color: var(--brand-color-text);
   font-weight: 400;
+  /**text-align: center;**/
+}
+
+.name-i-s {
+  padding-top: 30px;
+  /**padding-bottom: 59px;**/
   text-align: center;
 }
-.igor {
-  padding-right: 30px;
-}
-.olha {
-  padding-right: 30px;
-}
-.nicola {
-  padding-right: 30px;
-}
+
 /**portfolio**/
 /**button**/
 .button-poster {
   /**width: 1170px;
-  height: 1360px;**/
+  /height: 1360px;**/
   display: block;
   padding-bottom: 94px;
 }
@@ -297,7 +328,6 @@ body {
 }
 .button-all {
   text-align: center;
-  border-radius: 5px;
 }
 .alle-button {
   display: flex;
@@ -306,38 +336,32 @@ body {
   margin: 15px;
   margin-bottom: 50px;
 }
+.button-alle {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.button-all:not(:last-child) {
+  margin-right: 8px;
+}
 
 .button-a {
-  border: none;
-  cursor: pointer;
   height: 38px;
   width: 73px;
-  margin-right: 8px;
 }
 .button-b {
-  border: none;
-  cursor: pointer;
   height: 38px;
   width: 128px;
-  margin-right: 8px;
 }
 .button-c {
-  border: none;
-  cursor: pointer;
   height: 38px;
   width: 145px;
-  margin-right: 8px;
 }
 .button-d {
-  border: none;
-  cursor: pointer;
   height: 38px;
   width: 103px;
-  margin-right: 8px;
 }
 .button-e {
-  border: none;
-  cursor: pointer;
   height: 38px;
   width: 130px;
 }
@@ -347,9 +371,21 @@ body {
   margin-bottom: 30px;
   /**justify-content: space-around;**/
 }
+.poster-blank:not(:last-child) {
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+/**.poster-ale:not(:last-child) {
+  margin-right: 25px;
+}**/
+
 .poster-blank {
   display: flex;
+  width: 370px;
+  height: 404px;
 }
+
 .poster-foto {
   text-decoration: none;
 }
@@ -358,6 +394,8 @@ body {
   line-height: 2;
   color: var(--brand-color-title);
   font-weight: 700;
+  margin-bottom: 4px;
+  margin-left: 24px;
   /**cursor: pointer;**/
 }
 .poster-text {
@@ -365,37 +403,10 @@ body {
   line-height: 1.9;
   color: var(--brand-color-text);
   font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 24px;
   /**cursor: pointer;**/
-}
-.technokryak {
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-.new-orleanvs {
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-.seafood {
-  margin-bottom: 30px;
-}
-.prime {
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-.boxes {
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-.borders {
-  margin-bottom: 30px;
-}
-.limited {
-  margin-right: 30px;
-}
-.lab {
-  margin-right: 30px;
-}
-.business {
 }
 
 /**подвал**/
