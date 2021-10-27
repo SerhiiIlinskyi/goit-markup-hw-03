@@ -368,8 +368,8 @@ body {
 .poster {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-  /**justify-content: space-around;**/
+  /**margin-bottom: 30px;
+  justify-content: space-around;**/
 }
 .poster-blank:not(:last-child) {
   margin-bottom: 30px;
