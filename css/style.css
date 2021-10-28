@@ -303,7 +303,7 @@ body {
   color: var(--brand-color-text);
   font-weight: 400;
   margin-top: 10px;
-  
+
   /**text-align: center;**/
 }
 
@@ -321,7 +321,6 @@ body {
   /height: 1360px;**/
   display: block;
   padding-bottom: 94px;
-  m
 }
 .button {
   font-size: 16px;
@@ -370,8 +369,13 @@ body {
 .poster {
   display: flex;
   flex-wrap: wrap;
-   /**margin-bottom: 30px;
+  /**margin-bottom: 30px;
   justify-content: space-around;**/
+}
+
+.poster-blank:not(:last-child) {
+  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 /**.poster-blank:not(:last-child) {
@@ -379,10 +383,10 @@ body {
   margin-right: 30px;
 }**/
 
-.poster-foto:not(:last-child) {
+/**.poster-foto:not(:last-child) {
   margin-bottom: 30px;
   margin-left: 30px;
-}
+}**/
 
 /**.poster-ale {
 margin-bottom: 30px;
@@ -398,7 +402,6 @@ margin-left: 30px;
 
 .poster-foto {
   text-decoration: none;
-  
 }
 .poster-name {
   font-size: 18px;
